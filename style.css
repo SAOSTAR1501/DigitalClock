@@ -8,16 +8,37 @@
 }
 
 body {
+    min-height: 100vh;
+    background: #2f363e;
+}
+
+.clockkk {
+    display: flex;
+    justify-content: center;
+
+}
+
+.name {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    width: 220px;
+    height: 40px;
+    background: rgb(48, 47, 128);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #2f363e;
+    border-radius: 20px;
+}
+
+.name p {
+    color: aquamarine;
 }
 
 
 .container {
     position: relative;
+    top: 100px;
     background: #2f363e;
     /* min-height: 500px; */
     border-radius: 20px;
